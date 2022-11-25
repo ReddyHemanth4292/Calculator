@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;background-color: #cdcdcd;
+    
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(4,30%);
+    margin: 0%;
+    border-radius: 2rem;
+    padding: 3rem;
+
+}
+
+input{
+    grid-column: span 4;
+    border: none;
+    border-radius: 5rem;
+   height: 2.5rem;
+    width: 22rem;
+     padding: 0.7rem;
+    text-align: end;
+    font-size:xx-large;
+    margin-bottom: 1rem;
+    background-color: #f5f5f5;
+    outline-width: 0;
+}
+
+button{
+    border-radius: 50%;
+    width: 3.5rem;
+    height:3.5rem;
+    margin: 0.3rem;
+    border: none;
+    font-weight: bold;font-size: large;
+    background-color: #f5f5f5;
+}
+
+button:active{
+    background-color: #ff9d5c;
+}
+
+
+.equal{
+    width: 10rem;
+    border-radius: 2rem;
+    background-color: #ff9d5c;
+}
+
+input::selection{
+    border-color: red;
+}
